@@ -1,0 +1,6 @@
+git clone https://git.centos.org/rpms/kernel.git
+cd kernel
+git checkout 068cc65a842e4e70cc064e0aa91a03113fa7b2ae
+apt-get install kernel-devel kernel-headers
+make
+sudo make install
